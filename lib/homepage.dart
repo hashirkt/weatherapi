@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
    final weatherProvider = Provider.of<WeatherServiceProvider>(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text("Weather App",style: GoogleFonts.aBeeZee(color: Colors.white,fontWeight: FontWeight.bold),),
+        title: Text("Weather App test",style: GoogleFonts.aBeeZee(color: Colors.white,fontWeight: FontWeight.bold),),
         backgroundColor: Colors.cyan,
       ),
       body: Container(
